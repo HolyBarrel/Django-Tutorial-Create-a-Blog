@@ -14,3 +14,7 @@ Following the tutorial on youtube: Django Tutorial (Create a Blog), Link: https:
 ### STARTAPP
 
 `python manage.py startapp articles`
+
+### MIGRATE
+
+`python manage.py migrate`
