@@ -26,3 +26,7 @@ and
 and 
 
 `python manage.py migrate`
+
+### INTERACTIVE SHELL
+
+`python manage.py shell`
