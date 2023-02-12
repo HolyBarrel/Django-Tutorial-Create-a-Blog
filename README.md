@@ -22,3 +22,7 @@ Following the tutorial on youtube: Django Tutorial (Create a Blog), Link: https:
 and 
 
 `python manage.py makemigrations`
+
+and 
+
+`python manage.py migrate`
