@@ -9,3 +9,8 @@ Following the tutorial on youtube: Django Tutorial (Create a Blog), Link: https:
 ### RUNSERVER
 
 `python manage.py runserver`
+
+
+### STARTAPP
+
+`python manage.py startapp articles`
