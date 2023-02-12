@@ -18,3 +18,7 @@ Following the tutorial on youtube: Django Tutorial (Create a Blog), Link: https:
 ### MIGRATE
 
 `python manage.py migrate`
+
+and 
+
+`python manage.py makemigrations`
