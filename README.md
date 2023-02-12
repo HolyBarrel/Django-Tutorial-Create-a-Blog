@@ -3,9 +3,9 @@ Following the tutorial on youtube: Django Tutorial (Create a Blog), Link: https:
 
 
 
-##SETUP 
+## SETUP 
 
 
-###RUNSERVER
+### RUNSERVER
 
 `python manage.py runserver`
