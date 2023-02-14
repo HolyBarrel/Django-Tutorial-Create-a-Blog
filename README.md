@@ -32,3 +32,7 @@ and
 ### INTERACTIVE SHELL
 
 `python manage.py shell`
+
+### CREATE SUPERUSER
+
+`python manage.py createsuperuser` 
