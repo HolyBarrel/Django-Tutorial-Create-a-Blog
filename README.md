@@ -36,3 +36,7 @@ and
 ### CREATE SUPERUSER
 
 `python manage.py createsuperuser` 
+
+### CLEAR STATIC CACHE
+
+`python manage.py collectstatic --noinput --clear`
