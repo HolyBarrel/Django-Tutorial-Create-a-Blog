@@ -1,22 +1,15 @@
-{% load static %}
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Articles</title>
-        <link rel="stylesheet" href="{% static 'style.css' %}">
-    </head>
-    <body>
-        <h1>Article List</h1>
-        <div class="articles">
-            {% for article in articles %} <!--For python code like for loops and if-checks-->
-            <div class="article">
-                <h2><a href="#">{{ article.title }}</a></h2>
-                <p>{{ article.snippet }}</p>
-                <p>{{ article.date }}</p>
+{% extends 'base_layout.html' %}
 
-            </div>
-            {% endfor %}
+{% block content %}
+    <h1>Article List</h1>
+    <div class="articles">
+        {% for article in articles %} <!--For python code like for loops and if-checks-->
+        <div class="article">
+            <h2><a href="#">{{ article.title }}</a></h2>
+            <p>{{ article.snippet }}</p>
+            <p>{{ article.date }}</p>
+
         </div>
-    </body>
-</html>
+        {% endfor %}
+    </div>
+{% endblock %}
