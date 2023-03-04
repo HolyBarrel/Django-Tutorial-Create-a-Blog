@@ -1,9 +1,9 @@
 /* SOURCE: https://github.com/iamshaunjp/django-playlist/blob/lesson-12/djangonautic/assets/styles.css   */
 body{
-    background-color: #0f121f;
+    background-color: #0f1329;
     background-image: url(https://raw.githubusercontent.com/iamshaunjp/django-playlist/lesson-12/djangonautic/assets/stars.png);
     background-repeat-y: no-repeat;
-    color: #fff;
+    color: #d0efffe7;
     font-family: 'Source Code Pro', monospace;
 }
 
