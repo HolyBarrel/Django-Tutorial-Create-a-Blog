@@ -40,3 +40,7 @@ and
 ### CLEAR STATIC CACHE
 
 `python manage.py collectstatic --noinput --clear`
+
+### CHANGE PASSWORD FOR ADMIN
+
+`python manage.py changepassword <user_name>`
